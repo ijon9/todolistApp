@@ -1,0 +1,22 @@
+h2 {
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#projects {
+    border: 1px solid black;
+    grid-column: 0 1;
+    text-align: center;
+    color: black;
+}
+
+#todos {
+    border: 1px solid black;
+    grid-column: 1 2;
+    text-align: center;
+}
