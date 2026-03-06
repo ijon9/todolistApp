@@ -1,3 +1,7 @@
+/* body {
+    background-color: rgb(196, 241, 243);
+} */
+
 h2 {
     text-align: center;
 }
@@ -34,4 +38,25 @@ h2 {
 
 .hand-cursor {
     cursor: pointer;
+}
+
+#modal {
+    text-align: left;
+    border-radius: 20px;
+}
+
+.todo-item {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
 }

@@ -5,7 +5,7 @@ export default class Project {
         this.todoArr = arr;
     }
 
-    add(todo) {
-		this.todoArr.push(todo);
-	}
+    // add(todo) {
+	// 	this.todoArr.push(todo);
+	// }
 }
