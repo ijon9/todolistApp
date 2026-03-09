@@ -1,6 +1,6 @@
-/* body {
-    background-color: rgb(196, 241, 243);
-} */
+body {
+    background-color: rgb(240, 231, 255);
+}
 
 h2 {
     text-align: center;
@@ -26,6 +26,8 @@ h2 {
     grid-row: 1 2;
     padding: 10px;
     text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
 }
 
 #todos {
@@ -34,6 +36,7 @@ h2 {
     grid-row: 1 2;
     padding: 10px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .hand-cursor {
@@ -50,8 +53,9 @@ h2 {
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    display: flex;
-    justify-content: space-between;
+    text-align: left;
+    /* display: grid;
+    grid-template-columns: 1fr; */
 }
 
 .p-circle {
